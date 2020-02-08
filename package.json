@@ -1,0 +1,27 @@
+{
+  "name": "tdd-conways-game-of-life",
+  "version": "1.0.0",
+  "description": "Brief example of TDD (based on \"Desarrollo de Software Agil en 10Pines\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --require @babel/register index.spec.js"
+  },
+  "author": "Kevin Szuchet",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-function-bind": "^7.7.4",
+    "@babel/plugin-syntax-function-bind": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@istanbuljs/nyc-config-babel": "^3.0.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "nyc": "^15.0.0"
+  }
+}
